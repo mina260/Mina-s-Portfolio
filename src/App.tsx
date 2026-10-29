@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Analytics } from '@vercel/analytics/react';
 import { motion } from "motion/react";
 import {
   ArrowDown,
@@ -422,6 +423,7 @@ function App() {
         
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
